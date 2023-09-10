@@ -69,7 +69,7 @@
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="booking.php" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="login.php" class="btn btn-primary py-2 px-4">Login</a>
                 </div>
             </nav>
 

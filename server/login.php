@@ -9,7 +9,7 @@ if (!$conn) {
 }
 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $email = $_POST["email"];
     $pass = $_POST["password"];
 
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 session_start();
                 $_SESSION["username"]=$row["userName"];
                 $_SESSION["userid"]=$row["userId"];
-                header("Location:http://localhost/restaurant/client/index.php");
+                header("Location:http://localhost/Appetite/client/index.php");
 
             }
             else{
