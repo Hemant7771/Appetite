@@ -30,14 +30,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
             }
             else{
-                    echo "Invalid credentials";
+                    echo "<script> alert('Invalid credentials')</script>";
             }
         }
     }
 
-    
-
-   
     
 }
 

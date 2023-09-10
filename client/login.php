@@ -30,6 +30,6 @@
 
 <?php
 
-include "server/login.php";
+include "../server/login.php";
 
 ?>

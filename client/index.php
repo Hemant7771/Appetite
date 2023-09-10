@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,6 +75,8 @@
                     <a href="login.php" class="btn btn-primary py-2 px-4">Login</a>
                 </div>
             </nav>
+
+            
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
@@ -829,4 +834,6 @@
     <script src="js/main.js"></script>
 </body>
 
+
 </html>
+
