@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    hello Naruto
+    hello Hemant
     <?php
     session_start();
         $name=$_SESSION["username"];
