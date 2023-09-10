@@ -42,7 +42,6 @@ body {
 }
 
 form {
-    height: 520px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
@@ -131,4 +130,10 @@ input {
 
 .social i {
     margin-right: 4px;
+}
+
+#singup_link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }

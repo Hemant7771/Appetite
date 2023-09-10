@@ -8,57 +8,47 @@ if (!$conn) {
 }
 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST["username"];
-    $email = $_POST["email"];
-    $pass = $_POST["password"];
-    
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
+    if (isset($_POST["username"]) && isset($_POST["email"]) && isset($_POST["password"])) {
 
 
-    $sql = "INSERT INTO `users` (userName, email, password) VALUES ('$username', '$email', '$pass')";
+        $username = $_POST["username"];
+        $email = $_POST["email"];
+        $pass = $_POST["password"];
 
-    $select="SELECT * from `users` ";
+        $sql = "INSERT INTO `users` (userName, email, password) VALUES ('$username', '$email', '$pass')";
 
-    $allemails= mysqli_query($conn, $select);
-    
-    $row=mysqli_num_rows($allemails);
+        $select = "SELECT * from `users` ";
 
+        $allemails = mysqli_query($conn, $select);
 
+        $row = mysqli_num_rows($allemails);
 
+        if ($row > 0) {
+            while ($row = mysqli_fetch_assoc($allemails)) {
+                if ($row["email"] == $email) {
 
-    if ($row>0) {
-        while ($row = mysqli_fetch_assoc($allemails)) {
-            if ($row["email"]==$email){
+                    echo "<script>alert('user already exist')</script>";
 
-                echo "user already exist";
-
-            }
-            else{
-                $res=mysqli_query($conn, $sql);
-                if ($res ) {
-                    echo "User added successfully";
                 } else {
-                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                    $res = mysqli_query($conn, $sql);
+                    if ($res) {
+                        echo "<script>alert('User added successfully')</script>";
+                    } else {
+                        echo `<script>alert('Error: ' . $sql . '<br>' . mysqli_error($conn))</script>`;
+                    }
                 }
             }
-        }
-    }
-    else{
-        $res=mysqli_query($conn, $sql);
-        if ($res ) {
-            echo "User added successfully";
         } else {
-            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }
-    }
-
-    
-
-   
-    
+            $res = mysqli_query($conn, $sql);
+            if ($res) {
+                echo "<script>alert('User added successfully')</script>";
+            } else {
+                echo `<script>alert('Error: ' . $sql . '<br>' . mysqli_error($conn))</script>`;
+            }
+        } 
+    } 
 }
 
 mysqli_close($conn);
 ?>
-
-

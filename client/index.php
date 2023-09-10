@@ -72,7 +72,7 @@
                     </div>
                     <?php
                         session_start();
-                        if(isset($_SESSION["username"]) ){
+                        if(isset($_SESSION["username"])){
                             echo "<a href='../server/logout.php' class='btn btn-primary py-2 px-4'>Log out</a>";
                         }else {
                             echo "<a href='login.php' class='btn btn-primary py-2 px-4'>Login</a>";

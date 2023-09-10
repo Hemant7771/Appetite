@@ -17,12 +17,13 @@
         <h3>Login Here</h3>
 
         <label for="username">E-mail</label>
-        <input type="email" placeholder="Email" id="username" name="email">
+        <input type="email" placeholder="Email" id="username" name="email" required>
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="password" placeholder="Password" id="password" name="password" required>
 
         <input type="submit" name="submit" class="login_btn" value="Login" />
+        <a href="signup.php" id="singup_link" >create new account</a>
     </form>
 </body>
 

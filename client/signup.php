@@ -14,18 +14,19 @@
         <div class="shape"></div>
     </div>
     <form method="POST">
-        <h3>Login Here</h3>
+        <h3>Sign Up</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="username" id="username" name="username">
+        <input type="text" placeholder="username" id="username" name="username" required>
 
         <label for="email">E-mail</label>
-        <input type="email" placeholder="Email" id="email" name="email">
+        <input type="email" placeholder="Email" id="email" name="email" required>
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="password" placeholder="Password" id="password" name="password" required>
 
-        <input type="submit" name="submit" class="login_btn" value="Login" />
+        <input type="submit" name="submit" class="login_btn" value="Sing Up" />
+        <a href="login.php" id="singup_link" >login</a>
     </form>
 </body>
 
