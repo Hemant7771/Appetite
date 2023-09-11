@@ -69,7 +69,14 @@
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="login.php" class="btn btn-primary py-2 px-4">Login</a>
+                    <?php
+                    session_start();
+                    if (isset($_SESSION["username"])) {
+                        echo "<a href='../server/logout.php' class='btn btn-primary py-2 px-4'>Log out</a>";
+                    } else {
+                        echo "<a href='login.php' class='btn btn-primary py-2 px-4'>Login</a>";
+                    }
+                    ?>
                 </div>
             </nav>
 
