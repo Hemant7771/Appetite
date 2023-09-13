@@ -109,7 +109,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Master Chef</h5>
-                                <p>We have our Great Master Chef Mr Hemant Sharma.<br> He Has Done PHD in Cooking. He loves to cook food. </p>
+                                <p>We have Great Master Chef Mr Hemant Sharma.He Has Done PHD in Cooking. He loves to cook food. </p>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                                 <h5>Quality Food</h5>
-                                <p>You Will Get Best Food Here,You can enjoy Meals,Snacks,Dessert and Drinks.</p>
+                                <p>You Will Get Best quality Food Here,You can enjoy our delicious Meals, Snacks, Dessert and Drinks.</p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
                                 <h5>Online Order</h5>
-                                <p>You can order online food by using swiggy and zomato.<br>They Will deliver your food in limited Time. </p>
+                                <p>You can order online food by using swiggy and zomato.They Will deliver your food in limited Time. </p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-headset text-primary mb-4"></i>
                                 <h5>24/7 Service</h5>
-                                <p>Our Restaurant is available for 24/7 you can Dine in her at mid night also,You can also order online 24/7.  </p>
+                                <p>Our Restaurant is available for 24/7 you can Dine in her at mid night also,You can also order online.  </p>
                             </div>
                         </div>
                     </div>
