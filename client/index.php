@@ -233,8 +233,8 @@
                                 href="#tab-1">
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Popular</small>
-                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Meal</h6>
                                 </div>
                             </a>
                         </li>
@@ -244,7 +244,7 @@
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                    <h6 class="mt-n1 mb-0">Snacks</h6>
                                 </div>
                             </a>
                         </li>
@@ -253,8 +253,18 @@
                                 href="#tab-3">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                    <small class="text-body">Delightful</small>
+                                    <h6 class="mt-n1 mb-0">Desserts</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-4">
+                                <i class="fas fa-cocktail fa-2x text-primary" style="color: #fea116;"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Refreshing</small>
+                                    <h6 class="mt-n1 mb-0">Drinks</h6>
                                 </div>
                             </a>
                         </li>
@@ -262,338 +272,30 @@
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">We use only the finest cuts of chicken</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>egg soup</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Egg Drop Soup is a testament to the beauty of
-                                                simplicity.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Chicken Pizza is a masterpiece of
-                                                flavor.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger (Big)</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Satisfy your hunger</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer tikka</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Paneer Tikka is not just an appetizer; it's a
-                                                shared experience. </small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken With fries</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Eat with crunch</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Paneer Pizza is a culinary
-                                                masterpiece.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Tofu</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Enjoy delicious food</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php
+                                include '../server/indexMeal.php';
+                                ?>
                             </div>
                         </div>
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">We use only the finest cuts of chicken</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>egg soup</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Egg Drop Soup is a testament to the beauty of
-                                                simplicity.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Chicken Pizza is a masterpiece of
-                                                flavor.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger (Big)</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Satisfy your hunger</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer tikka</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Paneer Tikka is not just an appetizer; it's a
-                                                shared experience. </small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken With fries</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Eat with crunch</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Paneer Pizza is a culinary
-                                                masterpiece.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Tofu</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Enjoy delicious food</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php
+                                include '../server/indexSnacks.php';
+                                ?>
                             </div>
                         </div>
                         <div id="tab-3" class="tab-pane fade show p-0">
                             <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">We use only the finest cuts of chicken</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>egg soup</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Egg Drop Soup is a testament to the beauty of
-                                                simplicity.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Chicken Pizza is a masterpiece of
-                                                flavor.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger (Big)</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Satisfy your hunger</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer tikka</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Paneer Tikka is not just an appetizer; it's a
-                                                shared experience. </small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken With fries</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Eat with crunch</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Paneer pizza</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Our Paneer Pizza is a culinary
-                                                masterpiece.</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt=""
-                                            style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Tofu</span>
-                                                <span class="text-primary">₹115</span>
-                                            </h5>
-                                            <small class="fst-italic">Enjoy delicious food</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php
+                                include '../server/indexDessert.php';
+                                ?>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <?php
+                                include '../server/indexDrinks.php';
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -767,7 +469,8 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining experience.</p>
+                        <p>It was clear that every detail had been carefully considered to enhance the dining
+                            experience.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
                                 style="width: 50px; height: 50px;">
@@ -779,7 +482,8 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining experience.</p>
+                        <p>It was clear that every detail had been carefully considered to enhance the dining
+                            experience.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
                                 style="width: 50px; height: 50px;">
@@ -791,7 +495,8 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining experience.</p>
+                        <p>It was clear that every detail had been carefully considered to enhance the dining
+                            experience.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
                                 style="width: 50px; height: 50px;">
@@ -803,7 +508,8 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining experience.</p>
+                        <p>It was clear that every detail had been carefully considered to enhance the dining
+                            experience.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg"
                                 style="width: 50px; height: 50px;">
@@ -854,8 +560,10 @@
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>
@@ -864,10 +572,10 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
+                            &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
                             Distributed By <a class="border-bottom" href="" target="_blank">Appetite</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
