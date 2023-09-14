@@ -120,7 +120,7 @@
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
                         <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Appetite</h1>
                         <p class="mb-4">Since 2008, Appetite has been serving the food with affordable prices and exceptional service. </p>
-                        <p class="mb-4">We maintain three core pillars that keep our customers coming back.<br><strong>Quality</strong><br><strong>Quantity</strong><br><strong>Low Price Food</strong></p>
+                        <p class="mb-4">We believe that every meal should be a memorable experience, a symphony of taste, texture, and presentation. That's why our talented chefs craft each dish with precision and passion.</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">

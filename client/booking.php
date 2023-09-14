@@ -154,8 +154,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" name="book_now" type="submit">Book
-                                        Now</button>
+                                    <button class="btn btn-primary w-100 py-3" name="book_now" type="submit">Book Now</button>
                                 </div>
                             </div>
                         </form>
@@ -181,7 +180,7 @@
                 </div>
             </div>
         </div>
-        <!-- Reservation Start -->
+        <!-- Reservation End -->
 
 
         <!-- Footer Start -->
@@ -273,5 +272,5 @@
 </html>
 
 <?php
-include '../server/booking.php'
+include '../server/booking.php';
 ?>
