@@ -110,14 +110,17 @@
         <!-- Service Start -->
         <div class="container-xxl py-5">
             <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
+                    <h1 class="mb-5">Explore Our Services</h1>
+                </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                                <h5>Master Chefs</h5>
-                                <p>Our Master Chef stands as the heart and soul of our establishment, ensuring that each
-                                    dish served is a masterpiece in...</p>
+                                <h5>Master Chef</h5>
+                                <p>We have Great Master Chef Mr Hemant Sharma.He Has Done PHD in Cooking. He loves to cook food. </p>
                             </div>
                         </div>
                     </div>
@@ -126,8 +129,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                                 <h5>Quality Food</h5>
-                                <p>We believe that the true essence of exceptional dining lies in the ingredients we
-                                    choose, the passion we infuse...</p>
+                                <p>You Will Get Best quality Food Here,You can enjoy our delicious Meals, Snacks, Dessert and Drinks.</p>
                             </div>
                         </div>
                     </div>
@@ -136,8 +138,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
                                 <h5>Online Order</h5>
-                                <p>At Appetite, we understand that modern life can be fast-paced, and your craving for
-                                    our delectable dishes doesn't wait...</p>
+                                <p>You can order online food by using swiggy and zomato.They Will deliver your food in limited Time. </p>
                             </div>
                         </div>
                     </div>
@@ -146,8 +147,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-headset text-primary mb-4"></i>
                                 <h5>24/7 Service</h5>
-                                <p>we're committed to providing you with unparalleled service whenever you need it.
-                                    That's why we proudly offer 24/7...</p>
+                                <p>Our Restaurant is available for 24/7 you can Dine in her at mid night also,You can also order online.  </p>
                             </div>
                         </div>
                     </div>
@@ -400,13 +400,13 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid" src="img/tabish.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Joshua Mitchell</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Tabish Khan</h5>
+                            <small>Owner</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -414,13 +414,13 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="img/sahil.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Ryan Anderson</h5>
-                            <small>Master Chef</small>
+                            <h5 class="mb-0">Sahil Karanje</h5>
+                            <small>Owner</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -428,13 +428,13 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="img/shubham.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Ethan Williams</h5>
-                            <small>Master Chef</small>
+                            <h5 class="mb-0">Shubham Chaudhary</h5>
+                            <small>Food Inspector</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -442,13 +442,13 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="img/hemant.jpg" alt="">
                             </div>
-                            <h5 class="mb-0">Benjamin Taylor</h5>
-                            <small>Master Chef</small>
+                            <h5 class="mb-0">Hemant Sharma</h5>
+                            <small>Chef</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -469,53 +469,45 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining
-                            experience.</p>
+                        <p>Do yourself a favor and visit this lovely restaurant. The service is unmatched. The staff truly cares about your experience. The food is absolutely amazing – everything we tasted melted in other mouths. Absolutely the best meal we had Eaten. Highly recommend!</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
-                                style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Raju.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Sophia Martinez</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Raju Bhai</h5>
+                                <small>Multi-tasker</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining
-                            experience.</p>
+                        <p>Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
-                                style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/totla.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Christopher Wilson</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Totla Seth</h5>
+                                <small>Smuggler</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining
-                            experience.</p>
+                        <p> It’s a great experience. The ambiance is very welcoming and charming. Amazing food and service. Staff are extremely knowledgeable and make great recommendations.I recommend to everyone! I would like to come back here again and again.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
-                                style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/babubhaiya.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Alexander Smith</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Babu Bhaiya</h5>
+                                <small>Dhotar Chor</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>It was clear that every detail had been carefully considered to enhance the dining
-                            experience.</p>
+                        <p>The Food Was Awesome,Each and Every item is so dilicious here,One of my favourite restaurants around town. The meals served rapidly and the rates were reasonable, If this Restaurant provide me INR2,00,000 ,I will Double the money in 21 Days. </p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg"
-                                style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/anuradha.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Olivia Davis</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Anuradha</h5>
+                                <small>Laxmi Chit Fund</small>
                             </div>
                         </div>
                     </div>
