@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!$_SESSION["username"]){
+    header("Location:http://localhost/Appetite/client/login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +80,6 @@
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                     <?php
-                    session_start();
                     if (isset($_SESSION["username"])) {
                         echo "<a href='../server/logout.php' class='btn btn-primary py-2 px-4'>Log out</a>";
                     } else {
