@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Appetite - Bootstrap Restaurant Template</title>
+    <title>Appetite</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -27,10 +27,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -51,7 +51,6 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Appetite</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -138,7 +137,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
                                 <h5>Online Order</h5>
-                                <p>You can order online food by using swiggy and zomato.They Will deliver your food in limited Time. </p>
+                                <p>You can order online food by using swiggy & zomato.They Will deliver your food in limited Time. </p>
                             </div>
                         </div>
                     </div>
@@ -304,91 +303,6 @@
         </div>
         <!-- Menu End -->
 
-
-        <!-- Reservation Start -->
-        <div id="Bookingtable" class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="row g-0">
-                <div class="col-md-6">
-                    <div class="video">
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-md-6 bg-dark d-flex align-items-center">
-                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-                        <h1 class="text-white mb-4">Book A Table Online</h1>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating date" id="date3" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" id="datetime"
-                                            placeholder="Date & Time" data-target="#date3"
-                                            data-toggle="datetimepicker" />
-                                        <label for="datetime">Date & Time</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <select class="form-select" id="select1">
-                                            <option value="1">People 1</option>
-                                            <option value="2">People 2</option>
-                                            <option value="3">People 3</option>
-                                        </select>
-                                        <label for="select1">No Of People</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Special Request" id="message"
-                                            style="height: 100px"></textarea>
-                                        <label for="message">Special Request</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
-                                allowscriptaccess="always" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Reservation Start -->
-
-
         <!-- Team Start -->
         <div class="container-xxl pt-5 pb-3">
             <div class="container">
@@ -399,57 +313,49 @@
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/tabish.jpg" alt="">
+                            <div class="rounded-circle overflow-hidden m-2">
+                                <img class="img-fluid" src="img/tabishkhn.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Tabish Khan</h5>
                             <small>Owner</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href="https://instagram.com/_crazy_taby_?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/sahil.jpg" alt="">
+                            <div class="rounded-circle overflow-hidden m-2">
+                                <img class="img-fluid" src="img/sahilk.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Sahil Karanje</h5>
                             <small>Owner</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href="https://instagram.com/_sahilkaranje_?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/shubham.jpg" alt="">
+                            <div class="rounded-circle overflow-hidden m-2">
+                                <img class="img-fluid" src="img/shubh.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Shubham Chaudhary</h5>
                             <small>Food Inspector</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href="https://instagram.com/shubham.chaudhary07?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/hemant.jpg" alt="">
+                            <div class="rounded-circle overflow-hidden m-2">
+                                <img class="img-fluid" src="img/hemants.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Hemant Sharma</h5>
                             <small>Chef</small>
                             <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href="https://instagram.com/hemant__7771__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -551,12 +457,6 @@
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p></p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -566,7 +466,6 @@
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved.
 
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                             Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
                             Distributed By <a class="border-bottom" href="" target="_blank">Appetite</a>
                         </div>
@@ -601,7 +500,7 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
+    <!-- Javascript -->
     <script src="js/main.js"></script>
 </body>
 

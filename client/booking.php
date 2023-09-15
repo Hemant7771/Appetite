@@ -10,7 +10,7 @@ if(!$_SESSION["username"]){
 
 <head>
     <meta charset="utf-8">
-    <title>Appetite - Bootstrap Restaurant Template</title>
+    <title>Appetite</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -34,10 +34,10 @@ if(!$_SESSION["username"]){
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -58,7 +58,7 @@ if(!$_SESSION["username"]){
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Appetite</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -236,7 +236,6 @@ if(!$_SESSION["username"]){
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved. 
 							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 							Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
                             Distributed By <a class="border-bottom" href="" target="_blank">Appetite</a>
                         </div>
@@ -271,7 +270,7 @@ if(!$_SESSION["username"]){
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
+    <!-- Javascript -->
     <script src="js/main.js"></script>
 </body>
 
