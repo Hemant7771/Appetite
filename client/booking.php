@@ -165,6 +165,7 @@ if (!$_SESSION["username"]) {
                                     <button class="btn btn-primary w-100 py-3" name="book_now" type="submit">Book
                                         Now</button>
                                 </div>
+                                <p>Table will be reserved for 1 hr on per booking.</p>
                             </div>
                         </form>
                     </div>

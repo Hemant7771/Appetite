@@ -9,22 +9,18 @@ if (isset($_POST["book_now"])) {
     $nop = $_POST["no_of_people"];
     $time = $_POST["time"];
 
-    // Calculate the start time (1 hour before the requested time)
     $start_time = strtotime($time) - 3600;
     $start_time = date("H:i:s", $start_time);
 
-    // Calculate the end time (1 hour after the requested time)
     $end_time = strtotime($time) + 3600;
     $end_time = date("H:i:s", $end_time);
 
-    // Check if there is any existing booking within the specified time range
     $selectQuery = "SELECT * FROM `booking` WHERE `date` = '$date' AND `time` BETWEEN '$start_time' AND '$end_time'";
     $data = mysqli_query($conn, $selectQuery);
 
     if (mysqli_num_rows($data) > 0) {
         echo "<script>alert('Table already booked for this date and time range!')</script>";
     } else {
-        // No conflicting bookings, so proceed to insert the new booking
         $q = "INSERT INTO `booking` (`name`, `email`, `date`, `time`, `no_of_people`) VALUES ('$name','$email','$date','$time','$nop')";
         $res = mysqli_query($conn, $q);
 
