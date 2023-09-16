@@ -2,21 +2,14 @@
 
 include 'db.php';
 
-// session_start();
-// if($_SESSION['username']){
-    
-// }else{
-//     header("Location:http://localhost/Appetite/client/login.php");
-// }
-
 if(isset($_POST["book_now"])){
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $date = $_POST["date_time"];
+    $date = $_POST["date"];
     $nop = $_POST["no_of_people"];
-    $spe_req = $_POST["special_req"];
+    $time = $_POST["time"];
 
-    $q = "INSERT INTO `booking`(`name`, `email`, `date`, `no_of_people`, `special_req`) VALUES ('$name','$email','$date','$nop','$spe_req')";
+    $q = "INSERT INTO `booking` (`name`, `email`, `date`, `time`, `no_of_people`) VALUES ('$name','$email','$date','$time','$nop')";
 
     $res = mysqli_query($conn, $q);
 
