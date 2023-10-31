@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!$_SESSION["username"]){
+if (!$_SESSION["username"]) {
     header("Location:http://localhost/Appetite/client/login.php");
 }
 ?>
@@ -58,7 +58,7 @@ if(!$_SESSION["username"]){
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Appetite</h1>
-                    
+
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -124,25 +124,33 @@ if(!$_SESSION["username"]){
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required >
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                            name="name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                            name="email" required>
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating date" id="date3" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" id="datetime"
-                                            placeholder="Date & Time" data-target="#date3"
-                                            data-toggle="datetimepicker" name="date_time" />
-                                        <label for="datetime" required>Date & Time</label>
+                                        <input type="date" class="form-control datetimepicker-input" id="datetime"
+                                            placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker"
+                                            name="date" />
+                                        <label for="datetime" required>Date</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
+                                    <div class="form-floating ">
+                                        <input type="time" class="form-control datetimepicker-input" name="time" id="time">
+                                        <label for="time">Time</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
                                     <div class="form-floating">
                                         <select class="form-select" id="select1" name="no_of_people" required>
                                             <option value="1">People 1</option>
@@ -152,16 +160,12 @@ if(!$_SESSION["username"]){
                                         <label for="select1">No Of People</label>
                                     </div>
                                 </div>
+
                                 <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Special Request" id="message"
-                                            style="height: 100px" name="special_req" ></textarea>
-                                        <label for="message">Special Request</label>
-                                    </div>
+                                    <button class="btn btn-primary w-100 py-3" name="book_now" type="submit">Book
+                                        Now</button>
                                 </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" name="book_now" type="submit">Book Now</button>
-                                </div>
+                                <p>Table will be reserved for 1 hr on per booking.</p>
                             </div>
                         </form>
                     </div>
@@ -224,8 +228,10 @@ if(!$_SESSION["username"]){
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>
@@ -234,9 +240,9 @@ if(!$_SESSION["username"]){
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved. 
-							
-							Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
+                            &copy; <a class="border-bottom" href="#">Appetite</a>, All Right Reserved.
+
+                            Designed By <a class="border-bottom" href="">Team Appetite</a><br><br>
                             Distributed By <a class="border-bottom" href="" target="_blank">Appetite</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">

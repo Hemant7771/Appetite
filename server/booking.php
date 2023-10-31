@@ -2,29 +2,33 @@
 
 include 'db.php';
 
-// session_start();
-// if($_SESSION['username']){
-    
-// }else{
-//     header("Location:http://localhost/Appetite/client/login.php");
-// }
-
-if(isset($_POST["book_now"])){
+if (isset($_POST["book_now"])) {
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $date = $_POST["date_time"];
+    $date = $_POST["date"];
     $nop = $_POST["no_of_people"];
-    $spe_req = $_POST["special_req"];
+    $time = $_POST["time"];
 
-    $q = "INSERT INTO `booking`(`name`, `email`, `date`, `no_of_people`, `special_req`) VALUES ('$name','$email','$date','$nop','$spe_req')";
+    $start_time = strtotime($time) - 3600;
+    $start_time = date("H:i:s", $start_time);
 
-    $res = mysqli_query($conn, $q);
+    $end_time = strtotime($time) + 3600;
+    $end_time = date("H:i:s", $end_time);
 
-    if($res){
-        echo "<script>alert('Table booked successfully !')</script>";
-    }else{
-        echo "<script>alert('Something went wrong !')</script>";
+    $selectQuery = "SELECT * FROM `booking` WHERE `date` = '$date' AND `time` BETWEEN '$start_time' AND '$end_time'";
+    $data = mysqli_query($conn, $selectQuery);
 
+    if (mysqli_num_rows($data) > 0) {
+        echo "<script>alert('Table already booked for this date and time range!')</script>";
+    } else {
+        $q = "INSERT INTO `booking` (`name`, `email`, `date`, `time`, `no_of_people`) VALUES ('$name','$email','$date','$time','$nop')";
+        $res = mysqli_query($conn, $q);
+
+        if ($res) {
+            echo "<script>alert('Table booked successfully!')</script>";
+        } else {
+            echo "<script>alert('Something went wrong!')</script>";
+        }
     }
 }
 
