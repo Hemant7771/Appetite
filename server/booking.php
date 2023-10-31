@@ -9,10 +9,9 @@ if (isset($_POST["book_now"])) {
     $nop = $_POST["no_of_people"];
     $time = $_POST["time"];
 
-    $start_time = strtotime($time) - 3600;
-    $start_time = date("H:i:s", $start_time);
-
+    $start_time = strtotime($time);
     $end_time = strtotime($time) + 3600;
+    $start_time = date("H:i:s", $start_time);
     $end_time = date("H:i:s", $end_time);
 
     $selectQuery = "SELECT * FROM `booking` WHERE `date` = '$date' AND `time` BETWEEN '$start_time' AND '$end_time'";
